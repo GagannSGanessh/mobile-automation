@@ -1,0 +1,8 @@
+apps/
+target/
+allure-report/
+allure-results/
+*.class
+.classpath
+.project
+.settings/
