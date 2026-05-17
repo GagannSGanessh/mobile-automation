@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Password less than 8 characters should show error","5737","Short password should show validation error","Mobile Automation Suite","2026-05-17","passed","2026-05-17","tests.loginTest","Login Tests","tests.loginTest","testShortPassword"
+"User should see success popup with valid credentials","5698","Valid login should succeed","Mobile Automation Suite","2026-05-17","passed","2026-05-17","tests.loginTest","Login Tests","tests.loginTest","testValidLogin"
+"Invalid email format should show error message","7789","Invalid email should show validation error","Mobile Automation Suite","2026-05-17","passed","2026-05-17","tests.loginTest","Login Tests","tests.loginTest","testInvalidLogin"

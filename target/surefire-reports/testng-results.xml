@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-17T17:25:10 IST" name="Mobile Automation Suite" finished-at="2026-05-17T17:25:52 IST" duration-ms="42533">
+    <groups>
+    </groups>
+    <test started-at="2026-05-17T17:25:10 IST" name="Login Tests" finished-at="2026-05-17T17:25:52 IST" duration-ms="42533">
+      <class name="tests.loginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.loginTest@52a36910]" started-at="2026-05-17T17:25:10 IST" name="setUp" finished-at="2026-05-17T17:25:32 IST" duration-ms="22618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidLogin()[pri:0, instance:tests.loginTest@52a36910]" started-at="2026-05-17T17:25:32 IST" name="testInvalidLogin" description="Invalid email should show validation error" finished-at="2026-05-17T17:25:40 IST" duration-ms="7618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method signature="testShortPassword()[pri:0, instance:tests.loginTest@52a36910]" started-at="2026-05-17T17:25:40 IST" name="testShortPassword" description="Short password should show validation error" finished-at="2026-05-17T17:25:45 IST" duration-ms="4998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShortPassword -->
+        <test-method signature="testValidLogin()[pri:0, instance:tests.loginTest@52a36910]" started-at="2026-05-17T17:25:45 IST" name="testValidLogin" description="Valid login should succeed" finished-at="2026-05-17T17:25:52 IST" duration-ms="6562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.loginTest@52a36910]" started-at="2026-05-17T17:25:52 IST" name="tearDown" finished-at="2026-05-17T17:25:52 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.loginTest -->
+    </test> <!-- Login Tests -->
+  </suite> <!-- Mobile Automation Suite -->
+</testng-results>
